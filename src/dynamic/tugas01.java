@@ -12,7 +12,17 @@ public class tugas01 {
         TampilJudul(identitas);
         System.out.println("    ");
     }
+  {
+        //input
+        int [] nominal = {5000, 2000, 1000, 500, 100};
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Jumlah uang: ");
+        int uang = scan.nextInt();
+    
+  {    
+       
 }
+
 
 
 
