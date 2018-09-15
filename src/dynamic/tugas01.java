@@ -20,9 +20,17 @@ public class tugas01 {
         int uang = scan.nextInt();
     
   {    
-       
+        for(int i = 0; i < 5; i++)
+        {
+            int jumlah = uang / nominal[i];
+            uang = uang - (nominal[i] * jumlah);
+            
+            System.out.println("lembar" + nominal[i] + "=" + jumlah);
+        }
+                
+    }
 }
-
+}
 
 
 
