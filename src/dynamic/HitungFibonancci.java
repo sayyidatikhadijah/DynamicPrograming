@@ -16,6 +16,18 @@ public class HitungFibonancci {
     {
         String identitas = "Sayyidati Khadijah/ X RPL 2 / 32";
         tampilJudul(identitas);
+        
+        int n = tampilInput();
+        BigInteger hasil = fibo(n);
+        tampilHasil(n, hasil);
     }
-}
-       
+    
+    public static int tampilInput()
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Bilangan ke-: ");
+        int n = scanner.nextInt();
+        return n;
+    }
+}  
+    
